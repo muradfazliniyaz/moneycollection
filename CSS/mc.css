@@ -4,26 +4,25 @@
 }
 body {
     background-color: #FFFFFF;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
 }
 
 header{
     background-color: #000000;
-    margin: 0px;
-
+    margin: 0px auto;
 }
-.headerimg{
-    display: inline-block;
+.header-img{
+    /* display: inline-block; */
     width: 200px;
 }
 
 nav ul {
     list-style: none;
-    background-color: #FFD017;
+    background-color: #FFC017;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px auto;
 }
 
 nav li {
@@ -72,7 +71,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 nav li ul {
@@ -120,36 +119,37 @@ form{
 }
 
 label{
-    position: absolute;
-    left: 40px;
+    position: relative;
+    left: -300px;
     margin: 0px;
     font-weight: bold;
-    
+    text-align: left;
+       
     
 
  }
 input{
-    position: absolute;
-    left: 250px;
+    position: relative;
+    left: 30px;
     width: 50%;
     padding: 3px;
     border-radius: 5px;
     
 }
 select{
-    position: absolute;
+    position: relative;
     left: 250px;
     width: 52%;
     padding: 3px;
     border-radius: 5px;
     
 }
-textarea{
+.textarea{
     position: relative;
     left: 70px;
     border-radius: 5px;
 } 
-button{
+.button{
     position: relative;
     top: -10px;
     left: 177px;
@@ -160,15 +160,8 @@ button{
     border-radius: 5px;
 }
 
-footer{
-    position: absolute;
-    bottom: 5px;
-    left: 600px;
-}
-.search{
+.footer{
     position: relative;
-    top: 20px;
-}
-div{
-    display: inline-block;
+    bottom: -30px;
+    left: 600px;
 }

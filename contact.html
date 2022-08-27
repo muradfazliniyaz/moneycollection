@@ -5,16 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MFN İletişim</title>
-    <link rel="icon" type="image/png" href="./PICTURES/mfn_logo.png" />
+    <link rel="icon" type="image/png" href="./PICTURES/mfn_logo_new.png" />
     <link rel="stylesheet" href="./CSS/mc.css" />
+    <script
+      src="https://kit.fontawesome.com/7c17ceca3d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <main>
-      <header>
-        <div>
-          <img src="./PICTURES/mfn_logo.png" alt="MFN Logo" class="header-img" />
+    <main class="container">
+      <header class="header">
+        <div class="header-conteiner">
+          <div>
+            <figure>
+              <img
+                src="./PICTURES/mfn_logo_new.png"
+                alt="MFN Logo"
+                class="header-img"
+              />
+            </figure>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              placeholder="Lütfen aradığınız şeyi yazınız"
+              class="input-search"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="social-media-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
         </div>
-        <nav>
+        <nav class="nav">
           <ul>
             <li><a href="./index.html">Ana Sayfa</a></li>
             <li>
@@ -84,7 +108,7 @@
                 <li><a href="#">Kanada</a></li>
               </ul>
             </li>
-            <li><a href="#">İletişim</a></li>
+            <li><a href="./contact.html">İletişim</a></li>
           </ul>
         </nav>
       </header>
@@ -92,18 +116,36 @@
         <form action="./action.php">
           <h2>İletişim Formu</h2>
           <label for="fname">İsim</label>
-          <input type="text" name="fname" id="fname" required placeholder="İsim"/>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            placeholder="İsim"
+          />
           <br />
           <label for="lname">Soyisim</label>
-          <input type="text" name="lname" id="lname" required placeholder="Soyisim"/>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            required
+            placeholder="Soyisim"
+          />
           <br />
           <label for="email">Email Adresi</label>
-          <input type="email" name="email" id="email" required placeholder="örnek@örnek.com"/>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="örnek@örnek.com"
+          />
           <br />
           <label for="country">Ülke</label>
           <select name="country" id="country" required>
-            <OPtion value="country">Lütfen Seçim Yapınız</OPtion>
-            <br>
+            <option value="country">Lütfen Seçim Yapınız</option>
+            <br />
             <option value="country">Almanya</option>
             <br />
             <option value="country">Türkiye</option>
@@ -126,7 +168,15 @@
             <br /></select
           ><br />
           <label for="mesage">Mesaj</label>
-          <textarea name="message" id="message" cols="51" rows="10" placeholder="Lütfen Mesajınızı Yazınız." required class="textarea"></textarea
+          <textarea
+            name="message"
+            id="message"
+            cols="51"
+            rows="10"
+            placeholder="Lütfen Mesajınızı Yazınız."
+            required
+            class="textarea"
+          ></textarea
           ><br />
           <button type="reset" class="button">Temizle</button>
           <button type="submit" class="button">Gönder</button>
@@ -134,8 +184,8 @@
       </section>
       <footer class="footer">
         Tüm Hakları
-        <img src="./PICTURES/mfn_logo.png" alt="" height="15" /> Dizayna aittir.
-        Kopyalanması yasaktır.
+        <img src="./PICTURES/mfn_logo_new.png" alt="" height="15" /> Dizayna
+        aittir. Kopyalanması yasaktır.
       </footer>
     </main>
   </body>

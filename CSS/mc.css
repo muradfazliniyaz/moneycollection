@@ -34,6 +34,7 @@ header div:nth-child(3) {
     color: #FFC017;
     display: flex;
     justify-content: space-evenly;
+    width: 50px;
 }
 
 .search {
@@ -63,6 +64,10 @@ nav ul {
     text-align: center;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
 }
 
 nav li {
@@ -70,7 +75,6 @@ nav li {
     border-right: 2px solid #000000;
     line-height: 40px;
     font-size: 100%;
-    display: inline-block;
     margin-right: 3px;
 }
 
@@ -145,15 +149,30 @@ nav li ul li {
     text-align: center;
 }
 
-form {
+/* .section-contact{
     background-color: #ffD017;
     box-sizing: border-box;
-    border: 0.5px solid coral;
     border-radius: 25px;
-    width: 200%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+} */
+
+.form {
+    background-color: #ffD017;
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin: 0 auto;
+    line-height: 2vh;
+
+    /* position: relative;
     left: 75%;
-    line-height: 45px;
+    line-height: 45px; */
 
 }
 

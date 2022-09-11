@@ -34,13 +34,14 @@ header div:nth-child(3) {
     color: #FFC017;
     display: flex;
     justify-content: space-evenly;
-    width: 50px;
+    
 }
 
 .search {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     color: #FFC017;
 }
 
@@ -219,7 +220,6 @@ select {
 }
 
 .footer {
-    position: relative;
-    bottom: -30px;
-    left: 600px;
+    display: flex;
+    justify-content: center;
 }

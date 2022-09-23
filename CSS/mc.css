@@ -58,10 +58,15 @@ header div:nth-child(3) {
     margin-left: 10px;
 }
 
-.social-media-icons {
+.lang {
     color: #FFC017;
     display: flex;
     justify-content: space-evenly;
+}
+
+.lang a {
+    text-decoration: none;
+    color: #FFC017;
 }
 
 nav ul {

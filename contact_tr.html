@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MFN İran</title>
-    <link rel="icon" type="image/png" href="./PICTURES/mfn_logo_new.png" />
+    <title>MFN İletişim</title>
+    <link rel="icon" type="image/png" href="./images/mfn_logo_new.png" />
     <link rel="stylesheet" href="./CSS/mc.css" />
     <script
       src="https://kit.fontawesome.com/7c17ceca3d.js"
@@ -18,12 +18,11 @@
         <div class="header-container">
           <div>
             <figure>
-              <a href="./index.html"
-                ><img
-                  src="./PICTURES/mfn_logo_new.png"
+                <a href="./index_tr.html"><img
+                  src="./images/mfn_logo_new.png"
                   alt="MFN Logo"
                   class="header-img"
-              /></a>
+                /></a>
             </figure>
           </div>
           <div class="search">
@@ -41,11 +40,11 @@
         </div>
         <nav class="nav">
           <ul>
-            <li><a href="./index.html">Ana Sayfa</a></li>
+            <li><a href="./index_tr.html">Ana Sayfa</a></li>
             <li>
               <a href="#">Asya</a>
               <ul>
-                <li><a href="./afghanistan.html">Afganistan</a></li>
+                <li><a href="./afghanistan_tr.html">Afganistan</a></li>
                 <li><a href="#">Arabistan</a></li>
                 <li><a href="#">Bae</a></li>
                 <li><a href="#">Bangladeş</a></li>
@@ -54,13 +53,13 @@
                 <li><a href="#">Gürcistan</a></li>
                 <li><a href="#">Hindistan</a></li>
                 <li><a href="#">Irak</a></li>
-                <li><a href="./iran.html">İran</a></li>
+                <li><a href="./iran_tr.html">İran</a></li>
                 <li><a href="#">Kırgızistan</a></li>
                 <li><a href="#">Kore</a></li>
                 <li><a href="#">Lübnan</a></li>
                 <li><a href="#">Malezya</a></li>
                 <li><a href="#">Myanmar</a></li>
-                <li><a href="#">Rusya</a></li>
+                <li><a href="./rusia_tr.html">Rusya</a></li>
                 <li><a href="#">Srilanka</a></li>
                 <li><a href="#">Türkmenistan</a></li>
                 <li><a href="#">Umman</a></li>
@@ -81,7 +80,7 @@
                 <li><a href="#">Makedonya</a></li>
                 <li><a href="#">Polonya</a></li>
                 <li><a href="#">Romanya</a></li>
-                <li><a href="./turkiye.html">Türkiye</a></li>
+                <li><a href="./turkey_tr.html">Türkiye</a></li>
               </ul>
             </li>
             <li>
@@ -104,45 +103,91 @@
             <li>
               <a href="#">Amerika</a>
               <ul>
-                <li><a href="./usa.html">Abd</a></li>
+                <li><a href="./usa_tr.html">Abd</a></li>
                 <li><a href="#">Brezilya</a></li>
                 <li><a href="#">Kanada</a></li>
               </ul>
             </li>
-            <li><a href="./contact.html">İletişim</a></li>
+            <li><a href="./contact_tr.html">İletişim</a></li>
           </ul>
         </nav>
       </header>
-      <section class="money-container">
-        <section>
-          <figure>
-            <img
-              src="./PICTURES/money/İran 5000 Riyal Ön Yüz.JPG"
-              alt="ABD"
-              class="money-img"
-            />
-          </figure>
-          <figcaption class="money-fig-cap">İran 5.000 Riyal Ön Yüzü</figcaption>
-        </section>
-        <section>
-          <figure>
-            <img
-              src="./PICTURES/money/İran 5000 Riyal Arka Yüz.JPG"
-              alt="ABD"
-              class="money-img"
-            />
-          </figure>
-          <figcaption class="money-fig-cap">İran 5.000 Riyal Arka Yüzü</figcaption>
-        </section>
+      <section class="section-contact">
+        <div class="form">
+          <form action="./action.php">
+            <div class="h2">
+              <h2 class="h2">İletişim Formu</h2>
+            </div>
+            <div class="label">
+              <label for="fname">İsim</label>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                required
+                placeholder="İsim"
+              />
+            </div>
+            <div class="label">
+              <label for="lname">Soyisim</label>
+              <input
+                type="text"
+                name="lname"
+                id="lname"
+                required
+                placeholder="Soyisim"
+              />
+            </div>
+            <div class="label">
+              <label for="email">Email Adresi</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="örnek@örnek.com"
+              />
+            </div>
+            <div class="label">
+              <label for="country">Ülke</label>
+              <select name="country" id="country" required>
+                <option value="country">Lütfen Seçim Yapınız</option>
+                <option value="country">Almanya</option>
+                <option value="country">Türkiye</option>
+                <option value="country">Irak</option>
+                <option value="country">İran</option>
+                <option value="country">Suudi Arabistan</option>
+                <option value="country">Ürdün</option>
+                <option value="country">İngiltere</option>
+                <option value="country">Hollanda</option>
+                <option value="country">İsviçre</option>
+                <option value="country">Polonya</option>
+                <option value="country">Diğer</option>
+              </select>
+            </div>
+            <div class="label">
+              <label for="mesage">Mesaj</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="51"
+                rows="10"
+                placeholder="Lütfen Mesajınızı Yazınız."
+                required
+                class="textarea">
+              </textarea>
+            </div>
+            <div class="label">
+              <button type="reset" class="button">Temizle</button>
+              <button type="submit" class="button">Gönder</button>
+            </div>
+          </form>
+        </div>
       </section>
       <footer class="footer">
         Tüm Hakları
-        <img
-          src="./PICTURES/mfn_logo_new.png"
-          alt="MFN"
-          height="15"
-          class="footer-img"
-        />Dizayna aittir. Kopyalanması yasaktır.
+        <img src="./images/mfn_logo_new.png" alt="MFN" height="15" />
+        aittir. Kopyalanması yasaktır.
       </footer>
     </main>
   </body>

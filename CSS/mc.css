@@ -256,6 +256,20 @@ select {
     margin: 0 10px 0 10px;
 }
 
+#direction {
+    width: 3vw;
+    height: 7vh;
+    background-color: #FFC017;
+    color: #000000;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width:500px) {
     .header-container {
         display: flex;
